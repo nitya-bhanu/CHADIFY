@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+    background-color:#041B2D;
+    color: cornsilk;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(80, 11, 24);
+    width: 100%;
+    height: 12vh;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    /* text-decoration: none; */
+    display: inline;
+    padding-left: 20px;
+}
+nav ul li img{
+    border-radius:100%;
+    width: 40px;
+    padding-right: 0px;
+}
+nav p{
+    padding-left: 15px;
+    font-weight: bold;
+    color: rgb(247, 152, 152);
+    font-size: 22px;
+}
+.search_bar{
+    align-items: center;
+    margin-left: 26vw;
+    padding: 0px;
+    display: flex;
+}
+.search_bar img{
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+}
+#search
+{
+    padding: 0px;
+    margin: 0px;
+    width: 400px;
+    height: 30px;
+    border-radius: 7.5px;
+    background-color: black;
+    border-style: none;
+    color: thistle;
+}
+#search-btn{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(80, 11, 24);
+    cursor:pointer;
+    border-style: none;
+}
+#current_playing_image {
+width:1200px;
+height: 700px;
+margin-top: 80px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#playin_song_name h2{
+    padding-top: 50px;
+    margin-left: 540px;
+}
+#duration_bar{
+    margin-top: 30px;
+    width: 800px;
+    margin-left: 350px;
+}
+.playing_time{
+    margin-left: 750px;
+}
+.icon_shit{
+    display: flex;
+    justify-content: center;
+    margin-left: 55px;
+} 
+.icon_shit img{
+    width:60px;
+    padding:20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.middle_shit_2 h2{
+margin-left: 720px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+#td2,#td4 {
+   text-align: right;
+}
+#td3,#td5 img{
+    width: 900px;
+}
+.song-name{
+    cursor:pointer;
+}
+.song-name:hover{
+    color: tomato;
+}
+.bottom_shit{
+    height: 20vh;
+    background-color: rgb(22, 3, 22);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.bottom_shit img{
+    width:80px;
+    border-radius: 100%;
+    background-color: rgb(192, 186, 186);
+}
+#link1 img{
+margin-left: 450px;
+margin-right: 10px;
+}
+#link2 img{
+    margin-left: 450px;
+    margin-right: 10px;
+}

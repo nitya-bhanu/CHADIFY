@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main_site.css" />
+    <title>CHADIFY</title>
+  </head>
+  <body>
+    <div class="upper_part">
+      <nav>
+        <ul>
+          <li>
+            <a href="main_site.html"
+              ><img src="ICONS_IMAGES/GigachadFace.jpg"
+            /></a>
+          </li>
+        </ul>
+        <p>Chadify</p>
+        <div class="search_bar">
+          <input type="text" id="search" placeholder="Search" />
+          <button id="search-btn" onclick="search()">
+            <img
+              src="https://img.icons8.com/ios-filled/50/26e07f/search--v1.png"
+            />
+          </button>
+        </div>
+      </nav>
+    </div>
+    <div class="middle_shit_1">
+      <img id="current_playing_image" src="ICONS_IMAGES/2 Pac.jpg" />
+      <div class="playin_details">
+        <div id="playin_song_name">
+          <h2>YEAH GO AHEAD,PLAY SOMETHIN</h2>
+        </div>
+        <input type="range" max="1000" min="0" value="0" id="duration_bar" />
+        <div class="playing_time" id="current_time">00:00</div>
+        <div class="icon_shit">
+          <img src="ICONS_IMAGES/previous.png" id="previous" />
+          <img src="ICONS_IMAGES/play.png"  id="play" onclick="play()"/>
+          <img src="ICONS_IMAGES/forward.png" id="next" />
+        </div>
+      </div>
+    </div>
+    <div class="middle_shit">
+      <h2>Up Next</h2>
+      <div class="song_bucket" id="td1">
+        <img src="ICONS_IMAGES/song1.jpg" class="album-cover" />
+        <div class="song-name" id="1">WOODS- Hollow Coves</div>
+        <div class="time-duration">03:38</div>
+      </div>
+      <div class="song_bucket" id="td2">
+        <img src="ICONS_IMAGES/song2.jpg" class="album-cover" />
+        <div class="song-name" id="2">Leave a Light On- Tom Walker</div>
+        <div class="time-duration">03:38</div>
+      </div>
+      <div class="song_bucket" id="td3">
+        <img src="ICONS_IMAGES/song3.jpg" class="album-cover" />
+        <div class="song-name" id="3">Champions - The Score</div>
+        <div class="time-duration">03:38</div>
+      </div>
+      <div class="song_bucket" id="td4">
+        <img src="ICONS_IMAGES/song4.jpg" class="album-cover" />
+        <div class="song-name" id="4">Capsize - Frenship</div>
+        <div class="time-duration">03:38</div>
+      </div>
+      <div class="song_bucket" id="td5">
+        <img src="ICONS_IMAGES/song5.jpg" class="album-cover" />
+        <div class="song-name" id="5">Battle Symphony - Linkin Park</div>
+        <div class="time-duration">03:38</div>
+      </div>
+    </div>
+    <div class="bottom_shit">
+        <a href="https://github.com/nitya-bhanu" id="link1"><img src="ICONS_IMAGES/github.png"/> </a>
+        <p>GitHub</p>
+        <a href="https://www.linkedin.com/in/nitya-bhanu-gogawat-0365b2204/" id="link2"><img src="ICONS_IMAGES/linkedin_logo_square_icon_134016.png" /> </a>
+        <p>LinkedIn</p>
+    </div>
+    <script src="main_site.js"></script>
+  </body>
+</html>
