@@ -18,7 +18,7 @@ function play() {
 }
 function nextsong(n) {
   if (n == 1) {
-    audioElement.src = "MUSIC/WOODS.mp3";
+    audioElement.src = "MUSIC/Woods.mp3";
   } else if (n == 2) {
     audioElement.src = "MUSIC/Leave a light on.mp3";
   } else if (n == 3) {
